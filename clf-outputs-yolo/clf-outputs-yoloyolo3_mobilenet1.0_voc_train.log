@@ -1,0 +1,154 @@
+Namespace(amp=False, batch_size=16, data_shape=416, dataset='roughy', epochs=10, gpus='0,', horovod=False, label_smooth=False, log_interval=100, lr=0.001, lr_decay=0.1, lr_decay_epoch='160,180', lr_decay_period=0, lr_mode='step', mixup=False, momentum=0.9, network='mobilenet1.0', no_mixup_epochs=20, no_random_shape=True, no_wd=False, num_samples=368, num_workers=4, resume='', save_interval=10, save_prefix='clf-outputs-yoloyolo3_mobilenet1.0_voc', seed=233, start_epoch=0, syncbn=False, sys_root='/home/ec2-user/SageMaker/csiro-aos-object-detection', train_yr='OPall', val_interval=2, voc_base='VOCportALL', warmup_epochs=2, warmup_lr=0.0001, wd=0.0005)
+Start training from [Epoch 0]
+[Epoch 0] Training cost: 264.578, ObjLoss=689.175, BoxCenterLoss=23.439, BoxScaleLoss=15.306, ClassLoss=98.158
+[Epoch 1] Training cost: 310.528, ObjLoss=373.826, BoxCenterLoss=23.524, BoxScaleLoss=13.593, ClassLoss=66.813
+[Epoch 1] Validation: 
+brittle_star=0.0
+cnidaria=0.0
+eel=nan
+misc_fish=0.0
+mollusc=0.0
+orange_roughy_edge=0.03272727272727273
+orange_roughy=0.023507768392434403
+sea_anemone=0.0
+sea_feather=0.0
+sea_star=0.0
+sea_urchin=0.0
+mAP=0.005623504111970714
+[Epoch 2] Training cost: 287.084, ObjLoss=265.922, BoxCenterLoss=23.177, BoxScaleLoss=13.289, ClassLoss=50.423
+[Epoch 3] Training cost: 296.776, ObjLoss=210.363, BoxCenterLoss=22.579, BoxScaleLoss=13.030, ClassLoss=41.434
+[Epoch 3] Validation: 
+brittle_star=0.0
+cnidaria=0.0
+eel=nan
+misc_fish=0.0
+mollusc=0.0
+orange_roughy_edge=0.012692896458016039
+orange_roughy=0.04785248034802708
+sea_anemone=0.0
+sea_feather=0.0
+sea_star=0.0
+sea_urchin=0.0
+mAP=0.006054537680604312
+[Epoch 4] Training cost: 280.398, ObjLoss=176.559, BoxCenterLoss=22.252, BoxScaleLoss=12.337, ClassLoss=35.741
+[Epoch 5] Training cost: 300.840, ObjLoss=153.427, BoxCenterLoss=21.900, BoxScaleLoss=11.951, ClassLoss=31.753
+[Epoch 5] Validation: 
+brittle_star=0.0
+cnidaria=0.0
+eel=nan
+misc_fish=0.0
+mollusc=0.0
+orange_roughy_edge=0.1133403200639731
+orange_roughy=0.22968267324570632
+sea_anemone=0.0
+sea_feather=0.0
+sea_star=0.0
+sea_urchin=0.0
+mAP=0.03430229933096794
+[Epoch 6] Training cost: 297.292, ObjLoss=136.659, BoxCenterLoss=21.748, BoxScaleLoss=11.793, ClassLoss=29.016
+[Epoch 7] Training cost: 294.211, ObjLoss=124.178, BoxCenterLoss=21.689, BoxScaleLoss=11.655, ClassLoss=26.872
+[Epoch 7] Validation: 
+brittle_star=0.0
+cnidaria=0.0
+eel=nan
+misc_fish=0.0
+mollusc=0.0
+orange_roughy_edge=0.39600464443881855
+orange_roughy=0.16297447799888043
+sea_anemone=0.0
+sea_feather=0.0
+sea_star=0.0
+sea_urchin=0.0
+mAP=0.0558979122437699
+[Epoch 8] Training cost: 289.189, ObjLoss=114.258, BoxCenterLoss=21.603, BoxScaleLoss=11.380, ClassLoss=25.202
+[Epoch 9] Training cost: 352.333, ObjLoss=106.350, BoxCenterLoss=21.599, BoxScaleLoss=11.170, ClassLoss=23.839
+[Epoch 9] Validation: 
+brittle_star=0.0
+cnidaria=0.0
+eel=nan
+misc_fish=0.0036730945821854917
+mollusc=0.0
+orange_roughy_edge=0.20259973309876111
+orange_roughy=0.5012563490077261
+sea_anemone=0.0
+sea_feather=0.0
+sea_star=0.0
+sea_urchin=0.0
+mAP=0.07075291766886727
+Namespace(amp=False, batch_size=16, data_shape=416, dataset='roughy', epochs=10, gpus='0,', horovod=False, label_smooth=False, log_interval=100, lr=0.001, lr_decay=0.1, lr_decay_epoch='160,180', lr_decay_period=0, lr_mode='step', mixup=False, momentum=0.9, network='mobilenet1.0', no_mixup_epochs=20, no_random_shape=True, no_wd=False, num_samples=368, num_workers=4, resume='', save_interval=10, save_prefix='clf-outputs-yoloyolo3_mobilenet1.0_voc', seed=233, start_epoch=0, syncbn=False, sys_root='/home/ec2-user/SageMaker/csiro-aos-object-detection', train_yr='OPall', val_interval=2, voc_base='VOCportALL', warmup_epochs=2, warmup_lr=0.0001, wd=0.0005)
+Start training from [Epoch 0]
+[Epoch 0] Training cost: 283.176, ObjLoss=688.988, BoxCenterLoss=23.873, BoxScaleLoss=15.436, ClassLoss=99.386
+[Epoch 1] Training cost: 314.143, ObjLoss=371.887, BoxCenterLoss=23.029, BoxScaleLoss=13.399, ClassLoss=66.343
+[Epoch 1] Validation: 
+brittle_star=0.0
+cnidaria=0.0
+eel=nan
+misc_fish=0.0
+mollusc=0.0
+orange_roughy_edge=0.007601537985592433
+orange_roughy=0.04029722035048508
+sea_anemone=0.0
+sea_feather=0.0
+sea_star=0.0
+sea_urchin=0.0
+mAP=0.004789875833607751
+[Epoch 2] Training cost: 297.620, ObjLoss=263.979, BoxCenterLoss=22.928, BoxScaleLoss=12.937, ClassLoss=49.857
+[Epoch 3] Training cost: 286.246, ObjLoss=209.132, BoxCenterLoss=22.355, BoxScaleLoss=12.670, ClassLoss=40.964
+[Epoch 3] Validation: 
+brittle_star=0.0
+cnidaria=0.0
+eel=nan
+misc_fish=0.0
+mollusc=0.0
+orange_roughy_edge=0.16616782929133317
+orange_roughy=0.27856835295817056
+sea_anemone=0.0
+sea_feather=0.0
+sea_star=0.0
+sea_urchin=0.0
+mAP=0.04447361822495037
+[Epoch 4] Training cost: 301.722, ObjLoss=175.214, BoxCenterLoss=22.038, BoxScaleLoss=12.366, ClassLoss=35.487
+[Epoch 5] Training cost: 300.100, ObjLoss=152.695, BoxCenterLoss=21.856, BoxScaleLoss=12.241, ClassLoss=31.702
+[Epoch 5] Validation: 
+brittle_star=0.0
+cnidaria=0.0
+eel=nan
+misc_fish=0.0
+mollusc=0.0
+orange_roughy_edge=0.06762711876050011
+orange_roughy=0.11995279632720691
+sea_anemone=0.0
+sea_feather=0.0
+sea_star=0.0
+sea_urchin=0.0
+mAP=0.0187579915087707
+[Epoch 6] Training cost: 304.703, ObjLoss=136.548, BoxCenterLoss=21.881, BoxScaleLoss=11.959, ClassLoss=28.988
+[Epoch 7] Training cost: 310.435, ObjLoss=123.963, BoxCenterLoss=21.738, BoxScaleLoss=11.801, ClassLoss=26.830
+[Epoch 7] Validation: 
+brittle_star=0.0
+cnidaria=0.0
+eel=nan
+misc_fish=0.003952569169960474
+mollusc=0.0
+orange_roughy_edge=0.26625965252328176
+orange_roughy=0.19274426567091538
+sea_anemone=0.0
+sea_feather=0.0
+sea_star=0.0
+sea_urchin=0.0
+mAP=0.04629564873641576
+[Epoch 8] Training cost: 279.932, ObjLoss=114.156, BoxCenterLoss=21.685, BoxScaleLoss=11.655, ClassLoss=25.184
+[Epoch 9] Training cost: 377.500, ObjLoss=106.309, BoxCenterLoss=21.646, BoxScaleLoss=11.440, ClassLoss=23.852
+[Epoch 9] Validation: 
+brittle_star=0.0
+cnidaria=0.0
+eel=nan
+misc_fish=0.0
+mollusc=0.0
+orange_roughy_edge=0.29336072059432444
+orange_roughy=0.305556077882004
+sea_anemone=0.0
+sea_feather=0.0
+sea_star=0.0
+sea_urchin=0.0
+mAP=0.05989167984763284

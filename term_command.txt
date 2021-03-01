@@ -1,0 +1,1 @@
+python train_yolo.py --network mobilenet1.0 --dataset roughy --voc_base VOCportALL --gpus 0, --epochs 10 --val-interval 2 --save-prefix clf-output/yolo --no-random-shape --no-random-shape
