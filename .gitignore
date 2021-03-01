@@ -9,3 +9,4 @@ models.*/
 clf-outputs/
 test-imgs/
 VOC*/
+clf-outputs*/
